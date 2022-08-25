@@ -15,14 +15,18 @@
       mkdir -p /run/apache2 
       /usr/sbin/httpd
       
+           
       
-4)Run the script using sh ApacheStart.sh
+4)Give  all the permsions to the owner,read only permission to the group memebers and deny permission to others using chmod command. Verify the permission of teh file using ls -l command.
 
 
-5)Verify the server is up and running by connecting with it via no:80
+5)Run the script using sh ApacheStart.sh
 
 
-6)If everything is fine, it displays the "It Works"  page.
+6)Verify the server is up and running by connecting with it via no:80
+
+
+7)If everything is fine, it displays the "It Works"  page.
 
 
 
